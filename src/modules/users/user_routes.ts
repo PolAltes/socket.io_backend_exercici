@@ -114,7 +114,7 @@ router.post('/login', login);
  *             schema:
  *               type: object
  *               properties:
- *                  name:
+ *                 name:
  *                   type: string
  *                 age:
  *                   type: integer

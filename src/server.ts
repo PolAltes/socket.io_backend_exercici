@@ -72,7 +72,7 @@ interface ChatMessage {
 }
 
 // Puerto específico para el servidor de chat
-const CHAT_PORT = process.env.CHAT_PORT || 3001;
+const CHAT_PORT = process.env.CHAT_PORT || 3000;
 
 // Crear servidor HTTP para el chat
 const chatServer = http.createServer();
